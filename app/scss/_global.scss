@@ -1,0 +1,52 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	line-height: 26px;
+	color: $default;
+	@extend %rubik-400;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1770px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container-content {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a {
+	font-size: 16px;
+	line-height: 26px;
+	color: $default;
+	@extend %dmsans-500;
+}
+
+.title {
+	text-align: center;
+	@extend %dmsans-700;
+	line-height: 46px;
+	font-size: 36px;
+	color: $title;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.text {
+	text-align: center;
+	max-width: 570px;
+	margin: 0 auto 55px;
+}
