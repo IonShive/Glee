@@ -1,15 +1,12 @@
 $(function () {
 
-	var mixer = mixitup('.products__items');
-	var mixer = mixitup('.design__items');
+	$('.menu__btn').on('click', function () {
+		$('.menu__list').toggleClass('menu__list--active');
+	});
 
 	$('.footer-top__title').on('click', function () {
 		$(this).next().slideToggle();
 		$(this).toggleToggle('active');
-	});
-
-	$('.menu__btn').on('click', function () {
-		$('.menu__list').toggleClass('menu__list--active');
 	});
 
 	$('.top-slider__inner').slick({
@@ -29,7 +26,5 @@ $(function () {
 		$('.design__btn').removeClass('design__btn--active');
 		$(this).addClass('design__btn--active');
 	});
-
-
 
 });
