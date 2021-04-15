@@ -222,6 +222,26 @@
 			font-size: 30px;
 		}
 	}
+	.personal {
+		padding-top: 50px;
+		&__title {
+			margin-bottom: 25px;
+		}
+		&__list {
+			margin-bottom: 35px;
+		}
+		&__list-item {
+			margin-bottom: 15px;
+		}
+		&__text {
+			margin-bottom: 40px;
+		}
+	}
+	.top {
+		&__title {
+			font-size: 30px;
+		}
+	}
 }
 
 @media (max-width: 540px) {
