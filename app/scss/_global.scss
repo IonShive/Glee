@@ -50,3 +50,34 @@ a {
 	max-width: 570px;
 	margin: 0 auto 55px;
 }
+
+.breadcrumbs {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__item {
+		padding-right: 20px;
+		position: relative;
+		&::after {
+			content: "/";
+			position: absolute;
+			top: 2px;
+			right: 5px;
+			width: 10px;
+			height: 18px;
+			overflow: hidden;
+		}
+		&:last-child {
+			padding-right: 0;
+			color: $accent;
+			&::after {
+				display: none;
+			}
+		}
+	}
+	&__link {
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
