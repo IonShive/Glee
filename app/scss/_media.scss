@@ -127,6 +127,25 @@
 		max-width: 100%;
 		height: 350px;
 	}
+	.experience {
+		&__img {
+			width: 40%;
+		}
+	}
+	.team {
+		&__wrapper {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__inner {
+			max-width: 100%;
+			margin-right: 0;
+			margin-bottom: 60px;
+		}
+		&__items {
+			justify-content: space-evenly;
+		}
+	}
 }
 
 @media (max-width: 980px) {
@@ -167,6 +186,34 @@
 	.articles {
 		&::after {
 			height: 35%;
+		}
+	}
+	.experience {
+		&__top {
+			justify-content: center;
+			padding: 60px 0;
+		}
+		&__title,
+		&__subtitle {
+			margin-bottom: 20px;
+		}
+		&__text {
+			padding-bottom: 40px;
+		}
+		&__img {
+			display: none;
+		}
+	}
+	.team {
+		padding-top: 60px;
+		&__item {
+			margin-bottom: 35px;
+		}
+		&__item-img {
+			width: 320px;
+		}
+		&__item-box {
+			width: 300px;
 		}
 	}
 }
@@ -275,6 +322,16 @@
 		}
 		&__form-input {
 			width: 100%;
+		}
+	}
+	.experience {
+		&__item-title {
+			padding-right: 15px;
+		}
+		&__text {
+			&::after {
+				width: 450px;
+			}
 		}
 	}
 }
@@ -416,6 +473,45 @@
 	.contact {
 		&__item {
 			margin: 0 0 30px;
+		}
+	}
+	.experience {
+		&__top {
+			padding: 30px;
+		}
+		&__title {
+			font-size: 30px;
+		}
+		&__text {
+			border-bottom: 2px solid $accent;
+
+			&::after {
+				width: 0;
+			}
+		}
+		&__items {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__item {
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			border-right: none;
+			border-bottom: 2px solid $accent;
+			&:last-child {
+				border-right: none;
+			}
+		}
+		&__item-title {
+			padding-right: 0;
+		}
+		&__bottom {
+			height: auto;
+		}
+	}
+	.team {
+		&__item {
+			margin-bottom: 20px;
 		}
 	}
 }
