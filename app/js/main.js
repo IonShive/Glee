@@ -37,6 +37,11 @@ $(function () {
 		$(this).toggleToggle('active');
 	});
 
+	$('.product__filter-title').on('click', function () {
+		$(this).next().slideToggle();
+		$(this).toggleToggle('active');
+	});
+
 	$('.product-info__item-num').styler();
 
 	$('.product-tabs__top-item').on('click', function (e) {
