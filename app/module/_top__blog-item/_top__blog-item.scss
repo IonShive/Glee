@@ -1,0 +1,25 @@
+.top {
+	&__inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 130px;
+		background-color: #edf1f4;
+	}
+	&__title {
+		font-size: 36px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		color: $title;
+	}
+}
+
+@media (max-width: 768px) {
+	.top {
+		&__title {
+			font-size: 30px;
+		}
+	}
+}
