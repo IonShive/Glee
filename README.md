@@ -1,4 +1,3 @@
-# ENG
 # Layout of the "Glee" project
 
 **Training project for layout practice**
@@ -34,51 +33,7 @@
 | [Slick slider](https://kenwheeler.github.io/slick/) | Slick slider is a jQuery plugin for quickly creating an adaptive slider of any complexity on a website. Its functionality allows you to implement looping, autoplay, transition effects and much more. Separately, I will highlight the possibility of scrolling through the slider with a finger on devices with a touch screen. |
 
 ## Contact author:
-**Vladislav Balaban Yurievich 2004**
+**Vladislav Balaban**
   - [Telegram](https://t.me/vlad_balaban2021)
   - [Gmail](mailto:vlad.balaban2020@mail.com)
-  - [VK](https://vk.com/id651052224)
   - [Github](https://github.com/IonShive) 
-
-# RUS
-# Верстка проекта "Glee"
-
-**Учебный проект для практики верстки**
-
-## Требования:
-* [Node.js](https://nodejs.org/en/) версия 14.15.1 
-* [npm](https://www.npmjs.com/) 
-* [gulp](https://gulpjs.com/)
-* [git](https://git-scm.com/)
-
-## Установка:
-1. Склонировать репозиторий
-2. Установить зависимости — npm i
-3. Запустить сервер разработки — gulp
-
-## Команды:
-* ```gulp``` - запуск сервера разработки
-* ```gulp images``` - запуск сжатия изображений
-
- 
-## Библиотеки используемые в проекте: 
-| Библиотека | Описание |
-| ------ | ------ |
-| [Jquery](https://jquery.com) | jQuery — набор функций JavaScript, фокусирующийся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими.  |
-
-## Фреймворки используемые в проекте:
-| Фреймворк | Описание |
-| ------ | ------ |
-| [Fancybox](https://fancyapps.com/) | FancyBox - это плагин jQuery для создания фотогалерей и отображения другого контента в красивых модальных окнах. |
-| [Ion.RangeSlider](http://ionden.com/a/plugins/ion.rangeSlider/) | Простой в использовании, гибкий и отзывчивый слайдер диапазона с поддержкой скинов. |
-| [Rate Yo!](https://rateyo.fundoocode.ninja) | RateYo! - это крошечный и гибкий плагин рейтинга звезд jQuery, он использует SVG для рендеринга рейтинга, поэтому изображения не требуются. |
-| [Mixitup](https://www.kunkalabs.com/mixitup/) | MixItUp - это высокопроизводительная библиотека без зависимостей, для анимированных манипуляций с DOM, которая дает вам возможность фильтровать, сортировать, добавлять и удалять элементы DOM с красивой анимацией. |
-| [Slick slider](https://kenwheeler.github.io/slick/) | Slick slider - это плагин jQuery для быстрого создания адаптивного слайдера любой сложности на сайте. Его функционал позволяет реализовать зацикливание, автовоспроизведение, эффекты перехода и многое другое. Отдельно выделю возможность прокрутки слайдера пальцем на устройствах с сенсорным экраном. |
-
-
-## Связь з автором:
-**Владислав Балабан Юрьевич 2004г**
-  - [Telegram](https://t.me/vlad_balaban2021)
-  - [Gmail](mailto:vlad.balaban2020@mail.com)
-  - [VK](https://vk.com/id651052224)
-  - [Github](https://github.com/IonShive)
