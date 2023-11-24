@@ -3,7 +3,7 @@
 **Training project for layout practice**
 
 ## Requirements:
-* [Node.js](https://nodejs.org/en/) version 14.15.1 
+* [Node.js](https://nodejs.org/en/) [version 14.15.1] 
 * [npm](https://www.npmjs.com/) 
 * [gulp](https://gulpjs.com/)
 * [git](https://git-scm.com/)
