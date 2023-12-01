@@ -2,6 +2,8 @@
 
 **Training project for layout practice**
 
+- [DEMO LINK](https://ionshive.github.io/glee/)
+
 ## Requirements:
 * [Node.js](https://nodejs.org/en/) [version 14.15.1] 
 * [npm](https://www.npmjs.com/) 
