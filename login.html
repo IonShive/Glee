@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glee</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/icons/logo.svg" alt="logo">
+				</a>
+
+				<nav class="menu">
+					<button class="menu__btn">
+						<span></span>
+					</button>
+					<ul class="menu__list">
+						<li class="menu__list-item">
+							<a class="menu__list-link menu__list-link--plus" href="#">Home</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">About</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Services</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link menu__list-link--plus" href="#">Pages</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">News</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="user-nav">
+					<a class="user-nav__link nav__search" href="#">
+						<img class="user-nav__link" src="images/icons/search.svg" alt="user icon">
+					</a>
+					<div class="user-nav__products">
+						<a class="user-nav__link-products " href="#">
+							<img class="user-nav__link-heart" src="images/icons/heart.svg" alt="user icon">
+							<span class="user-nav__num user-nav__heart">0</span>
+						</a>
+						<a class="user-nav__link-products " href="#">
+							<img class="user-nav__link-cart" src="images/icons/cart.svg" alt="user icon">
+							<span class="user-nav__num user-nav__cart">0</span>
+						</a>
+					</div>
+					<a class="user-nav__link nav__menu" href="#">
+						<img class="user-nav__link" src="images/icons/menu.svg" alt="user icon">
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<div class="top">
+			<div class="container">
+				<div class="top__inner">
+
+					<div class="top__title">
+						Log in
+					</div>
+
+					<div class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="#">
+									Home
+								</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="#">
+									Contact
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<section class="login">
+			<div class="container-content">
+				<form class="login__form" action="#">
+
+					<label class="login__label">
+						<span>Username or email address *</span>
+						<input class="login__input" type="text" required>
+					</label>
+
+					<label class="login__label">
+						<span>Password *</span>
+						<input class="login__input" type="text" required>
+					</label>
+
+					<button class="login__btn" type="submit">Login</button>
+
+					<label class="login__label login__label--checkbox">
+
+						<span>
+							<input type="checkbox">
+							<span>Remember me</span>
+						</span>
+
+						<a>Lost your password?</a>
+					</label>
+
+				</form>
+
+				<a class="login__link" href="#">
+					Not registered? No problem
+				</a>
+
+				<a class="login__link-btn" href="#">
+					Create an account
+				</a>
+
+			</div>
+		</section>
+
+		<section class="articles articles--login">
+			<div class="container-content">
+
+				<div class="articles__bottom articles__bottom--login">
+					<img class="articles__bottom-img" src="images/articles/partners/1.png" alt="articles img">
+					<img class="articles__bottom-img" src="images/articles/partners/2.png" alt="articles img">
+					<img class="articles__bottom-img" src="images/articles/partners/3.png" alt="articles img">
+					<img class="articles__bottom-img" src="images/articles/partners/4.png" alt="articles img">
+					<img class="articles__bottom-img" src="images/articles/partners/5.png" alt="articles img">
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container-content">
+
+			<div class="footer-top">
+
+				<div class="footer-top__item">
+					<a class="logo" href="#">
+						<img class="logo__img footer-top__logo" src="images/icons/logo.svg" alt="logo">
+					</a>
+					<ul class="footer-top__list">
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">ADDRESS: 4772 Wines Lane
+								Houston, TX 77032</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="tel:8323475843">Telephone: +832-347-5843</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="mailto:contact@Glee.com">Email: contact@Glee.com</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-top__item">
+					<p class="footer-top__title">
+						Services
+					</p>
+					<ul class="footer-top__list">
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">About us</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Return Policy</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Our Blog</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Contact Us</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Terms & Condition</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-top__item">
+					<p class="footer-top__title">
+						Account
+					</p>
+					<ul class="footer-top__list">
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Your Account</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Checkout</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Login</a>
+						</li>
+						<li class="footer-top__list-item">
+							<a class="footer-top__list-link" href="#">Register</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-top__item footer-top__item-form">
+					<p class="footer-top__title">
+						Newsletter
+					</p>
+					<p class="footer-top__text">
+						Subscribe by our newsletter and get
+						update protidin.
+					</p>
+					<form class="footer-top__form" action="">
+						<input class="footer-top__form-input" type="email" placeholder="Email address" required>
+						<button class="footer-top__form-btn" type="submit">Subscribe</button>
+					</form>
+				</div>
+
+			</div>
+
+			<div class="footer-bottom">
+				<p class="footer-bottom__copy">
+					©2020 CopyRight Example. All rights reserved.
+				</p>
+				<ul class="footer-bottom__nav">
+					<li class="footer-bottom__list">
+						<a class="footer-bottom__list-link" href="#">Home</a>
+					</li>
+					<li class="footer-bottom__list">
+						<a class="footer-bottom__list-link" href="#">About</a>
+					</li>
+					<li class="footer-bottom__list">
+						<a class="footer-bottom__list-link" href="#">Blog</a>
+					</li>
+					<li class="footer-bottom__list">
+						<a class="footer-bottom__list-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
